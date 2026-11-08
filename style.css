@@ -1,0 +1,92 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0f172a; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #1e293b;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    border-top: 4px solid #0A66C2; 
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+h2 {
+    color: #94a3b8; 
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #0A66C2; 
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.sobre-mi {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 450px;
+    margin: 40px auto 0 auto;
+}
+
+.links-container p {
+    margin: 0;
+    width: 100%;
+}
+
+.links-container a {
+    display: block;
+    background-color: #0A66C2; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.links-container a:hover {
+    background-color: #004182;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
